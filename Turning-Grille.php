@@ -8,12 +8,11 @@
 <body bgcolor="FBFCDD">
 	<div name="Form" align="center" style="width: 80%; margin-left: 5%;">
 		<h1>The Turning Grille</h1>
-	<h4>NOTE:if text is longer than 16 letter takes first 16 character.(Max Entry is 40)<br>
-		if text is shorter than 16 put X letter to the end.<br> 
+	<h4>NOTE:If text is longer than 16 letter takes first 16 character.(Max Entry is 40)<br>
+		If text is shorter than 16 changes missing letters by "X" from end.<br> 
 		You can try this message "GTYJOIROEUBDIATD".</h4>
 	<form action="" method="post">
 		<table border="0" width="400" align="center">
-			
 			<tr>
 				<td align="center">
 					<input type="text" maxlength="40" name="normaltext" id="normaltext" width="200">
@@ -32,11 +31,26 @@
 	</form>
 	</div>
 	<div name="Feautres" style="width: 80%; margin-left: 5%;text-align: left;">
-		You can encrypt and decrypt deeper layers with following order of process. 
+		<strong>You can encrypt and decrypt deeper layers with following order of process. </strong><br>
+	
 		<table border="0">
 		<tr>
-			<td width="200">a</td>
-			<td width="200">b</td>
+			<td width="300">How it could be more different?</td>
+			<td width="300">What I would like to add:</td>
+			</tr>
+		<tr>
+
+			<td>
+				<ul>
+				  <li>Rotating Arrays By Function</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+				  <li>Choosing Layer Of Message.</li>
+				  <li>More Masks Which Is created Randomly.</li>
+				</ul>
+			</td>
 		</tr>
 		</table>
 	</div>
