@@ -6,22 +6,35 @@ if ($_POST)
 		$Virtual_Stencil_Lines = array 
 			 (
 				array  (1,0,0,0,
-						0,0,1,0,
-						1,0,0,0,
-						0,1,0,0),
+					0,0,1,0,
+					1,0,0,0,
+					0,1,0,0),
 				array  (0,1,0,1,
-						1,0,0,0,
-						0,0,1,0,
-						0,0,0,0),
+					1,0,0,0,
+					0,0,1,0,
+					0,0,0,0),
 				array  (0,0,1,0,
-						0,0,0,1,
-						0,1,0,0,
-						0,0,0,1),
+					0,0,0,1,
+					0,1,0,0,
+					0,0,0,1),
 				array  (0,0,0,0,
-						0,1,0,0,
-						0,0,0,1,
-						1,0,1,0)
+					0,1,0,0,
+					0,0,0,1,
+					1,0,1,0)
 			 );
+		/*
+		Basically key is becoming like on next array:
+		$Key_Basic_View = 
+		array ( 0,6,8,13
+			1,3,4,10
+			2,7,9,15
+			5,11,12,14);
+		Every line of array (%4) basically demonstrates holes of grille according to rotations on 4x4 table. I didn't want to use this way
+		to make it easier to show with dots on the page. So this is why on this project I prefered binary system to spread letters.  
+		But, basic view way is more efficiency to create random keys or to work with bigger or smaller tables which I'm planning to add in
+		next versions. 
+		*/
+
 		/* Here we are checking if any value is coming from form. I created script
 		and form nested to test how is it working on one page. The most known and cleaner way is to post it another page and return from script to the current page*/		
 	
